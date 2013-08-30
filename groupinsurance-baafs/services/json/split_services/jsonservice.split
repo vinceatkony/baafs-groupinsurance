@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <dataprovider></dataprovider>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>other</group>
+        <httpmethod></httpmethod>
+        <id>jsonservice</id>
+        <intemplate></intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate></outtemplate>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>http://localhost:8080/env</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>

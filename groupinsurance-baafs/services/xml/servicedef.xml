@@ -1,0 +1,72 @@
+<application desc="" id="AcmeInsurance" name="" smscode="">
+   <app-config>
+      <config-param name="APP_SMS_HEADER" value="null"/>
+   </app-config>
+   <services>
+      <service cachable="false" cacheduration="" id="Financial" passwordencrypted="true" smscode="" smsenabled="false" type="plainxmlserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://vertapp.konylabs.net/KonyInsuranceWeb/GetPolicyList?userID=kony"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="http.method" value="GET"/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input/>
+         <service-output>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" target=""/>
+         </service-output>
+      </service>
+      <service cachable="true" cacheduration="" id="GetPolicy" passwordencrypted="false" smscode="" smsenabled="false" type="plainxmlserviceConnector">
+         <service-config>
+            <config-param name="endpointUrl" value="http://10.0.1.30:8080/GetLifeInfo.txt"/>
+            <config-param name="postprocessorname" value=""/>
+            <config-param name="preprocessorname" value=""/>
+            <config-param name="urlprovider" value=""/>
+            <config-param name="dataprovider" value=""/>
+            <config-param name="sockettimeout" value=""/>
+            <config-param name="proxyname" value=""/>
+            <config-param name="proxyport" value=""/>
+            <config-param name="proxyusername" value=""/>
+            <config-param name="http.method" value="GET"/>
+            <config-param name="isembedxmlpresent" value="false"/>
+            <config-param name="responseEncoding" value="UTF-8"/>
+            <config-param name="server.auth.mode" value="basic"/>
+            <config-param name="server.auth.host" value=""/>
+            <config-param name="server.auth.ntlm.domain" value=""/>
+         </service-config>
+         <service-input/>
+         <service-output>
+            <dataset id="policyList" src="//GetAccountsResponse/Accounts">
+               <param datatype="string" format="None" formatvalue="" name="occupationPeriod" sms-name="" src="Account/LTDOccupationPeriod" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="elimPeriod" sms-name="" src="Account/LTDEliminationPeriod" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="ltdBenefitPercentage" sms-name="" src="Account/LTDBenefitPercentage" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="ltdMaxBenefit" sms-name="" src="Account/LTDMaxBenefit" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="dentalBenefit" sms-name="" src="Account/MaximumDentalBenefit" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="coinsurance" sms-name="" src="Account/DentalCoInsurance" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="dentalDeductable" sms-name="" src="Account/DentalDeductable" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="addBenefit" sms-name="" src="Account/ADDBenefit" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="lifeBenefit" sms-name="" src="Account/LifeBenefit" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="description" sms-name="" src="Account/Description" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="insuranceCardSrc" sms-name="" src="Account/InsuranceCard" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="policyNumber" sms-name="" src="Account/Number" target="response"/>
+               <param datatype="string" format="None" formatvalue="" name="ltdDrugAlcohol" sms-name="" src="Account/LTDDrugAlcohol" target="response"/>
+            </dataset>
+            <param datatype="number" format="None" formatvalue="" name="opstatus" sms-name="" src="" target=""/>
+            <param datatype="string" format="None" formatvalue="" name="errmsg" sms-name="" src="" target=""/>
+            <param datatype="number" format="None" formatvalue="" name="httpStatusCode" sms-name="" src="" target=""/>
+         </service-output>
+      </service>
+   </services>
+</application>

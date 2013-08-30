@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <dataprovider></dataprovider>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>other</group>
+        <httpmethod>GET</httpmethod>
+        <id>Financial</id>
+        <intemplate></intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>&lt;Results&gt;
+   &lt;collection id="InsuranceAccounts"&gt;
+      &lt;record&gt;
+         &lt;billingAccountNumber&gt;J123819&lt;/billingAccountNumber&gt;
+         &lt;canPay&gt;Yes&lt;/canPay&gt;
+         &lt;collection id="billingDetailDataset"&gt;
+            &lt;record&gt;
+               &lt;billingParamName&gt;installmentAmount&lt;/billingParamName&gt;
+               &lt;billingParamValue&gt;245&lt;/billingParamValue&gt;
+            &lt;/record&gt;
+            &lt;record&gt;
+               &lt;billingParamName&gt;billingAccountInstallmentDueDate&lt;/billingParamName&gt;
+               &lt;billingParamValue&gt;19-Apr-2012&lt;/billingParamValue&gt;
+            &lt;/record&gt;
+            &lt;record&gt;
+               &lt;billingParamName&gt;billingAccountMessage&lt;/billingParamName&gt;
+               &lt;billingParamValue&gt;&amp;lt;p&amp;gt;&amp;lt;font color="red"&amp;gt;Bill due: $245&amp;lt;/font&amp;gt;&amp;lt;p&amp;gt;&lt;/billingParamValue&gt;
+            &lt;/record&gt;
+            &lt;record&gt;
+               &lt;billingParamName&gt;billingAccountBillID&lt;/billingParamName&gt;
+               &lt;billingParamValue&gt;801&lt;/billingParamValue&gt;
+            &lt;/record&gt;
+         &lt;/collection&gt;
+         &lt;collection id="relatedAccounts"&gt;
+            &lt;record&gt;
+               &lt;policyID&gt;999999&lt;/policyID&gt;
+               &lt;policyNumber&gt;83247&lt;/policyNumber&gt;
+               &lt;policyType&gt;Bike Policy&lt;/policyType&gt;
+               &lt;status&gt;Active&lt;/status&gt;
+               &lt;policyDue&gt;201.12&lt;/policyDue&gt;
+               &lt;billID&gt;632&lt;/billID&gt;
+               &lt;vehicleID&gt;99990&lt;/vehicleID&gt;
+               &lt;vehicleName&gt;Honda Cruiser&lt;/vehicleName&gt;
+               &lt;coverageAmount&gt;100000.00&lt;/coverageAmount&gt;
+               &lt;policyUntil&gt;31-Mar-2012&lt;/policyUntil&gt;
+               &lt;placeHolderText&gt;Thank You&lt;/placeHolderText&gt;
+               &lt;insuranceCardSrc&gt;http://vertapp.konylabs.net/KonyInsuranceWeb/images/insurecard.png&lt;/insuranceCardSrc&gt;
+               &lt;canPay&gt;YES&lt;/canPay&gt;
+            &lt;/record&gt;
+            &lt;record&gt;
+               &lt;policyID&gt;23234&lt;/policyID&gt;
+               &lt;policyNumber&gt;23234&lt;/policyNumber&gt;
+               &lt;policyType&gt;Auto Policy&lt;/policyType&gt;
+               &lt;status&gt;Active&lt;/status&gt;
+               &lt;policyDue&gt;323.00&lt;/policyDue&gt;
+               &lt;billID&gt;678&lt;/billID&gt;
+               &lt;vehicleID&gt;14096&lt;/vehicleID&gt;
+               &lt;vehicleName&gt;Merc E-68&lt;/vehicleName&gt;
+               &lt;coverageAmount&gt;54540.00&lt;/coverageAmount&gt;
+               &lt;policyUntil&gt;19-Feb-2012&lt;/policyUntil&gt;
+               &lt;placeHolderText&gt;Thank You&lt;/placeHolderText&gt;
+               &lt;insuranceCardSrc&gt;http://vertapp.konylabs.net/KonyInsuranceWeb/images/insurecard.png&lt;/insuranceCardSrc&gt;
+               &lt;canPay&gt;NO&lt;/canPay&gt;
+            &lt;/record&gt;
+         &lt;/collection&gt;
+      &lt;/record&gt;
+      &lt;record&gt;
+         &lt;billingAccountNumber&gt;J189916&lt;/billingAccountNumber&gt;
+         &lt;canPay&gt;No&lt;/canPay&gt;
+         &lt;collection id="billingDetailDataset"&gt;
+            &lt;record&gt;
+               &lt;billingParamName&gt;installmentAmount&lt;/billingParamName&gt;
+               &lt;billingParamValue&gt;1242&lt;/billingParamValue&gt;
+            &lt;/record&gt;
+            &lt;record&gt;
+               &lt;billingParamName&gt;billingAccountInstallmentDueDate&lt;/billingParamName&gt;
+               &lt;billingParamValue&gt;30-Apr-2012&lt;/billingParamValue&gt;
+            &lt;/record&gt;
+            &lt;record&gt;
+               &lt;billingParamName&gt;billingAccountMessage&lt;/billingParamName&gt;
+               &lt;billingParamValue&gt;&amp;lt;p&amp;gt;&amp;lt;font color="blue"&amp;gt;Bill due amount is $124&lt;/billingParamValue&gt;
+            &lt;/record&gt;
+            &lt;record&gt;
+               &lt;billingParamName&gt;billingAccountBillID&lt;/billingParamName&gt;
+               &lt;billingParamValue&gt;803&lt;/billingParamValue&gt;
+            &lt;/record&gt;
+         &lt;/collection&gt;
+         &lt;collection id="relatedAccounts"&gt;
+            &lt;record&gt;
+               &lt;policyID&gt;890890&lt;/policyID&gt;
+               &lt;policyNumber&gt;89089&lt;/policyNumber&gt;
+               &lt;policyType&gt;Bike Policy&lt;/policyType&gt;
+               &lt;status&gt;Active&lt;/status&gt;
+               &lt;policyDue&gt;218.00&lt;/policyDue&gt;
+               &lt;billID&gt;894&lt;/billID&gt;
+               &lt;vehicleID&gt;43261&lt;/vehicleID&gt;
+               &lt;vehicleName&gt;Honda Platina&lt;/vehicleName&gt;
+               &lt;coverageAmount&gt;50000.00&lt;/coverageAmount&gt;
+               &lt;policyUntil&gt;29-Mar-2012&lt;/policyUntil&gt;
+               &lt;placeHolderText&gt;Thank You&lt;/placeHolderText&gt;
+               &lt;insuranceCardSrc&gt;http://vertapp.konylabs.net/KonyInsuranceWeb/images/insurecard.png&lt;/insuranceCardSrc&gt;
+               &lt;canPay&gt;NO&lt;/canPay&gt;
+            &lt;/record&gt;
+            &lt;record&gt;
+               &lt;policyID&gt;789789&lt;/policyID&gt;
+               &lt;policyNumber&gt;78978&lt;/policyNumber&gt;
+               &lt;policyType&gt;Bike Policy&lt;/policyType&gt;
+               &lt;status&gt;Active&lt;/status&gt;
+               &lt;policyDue&gt;200.00&lt;/policyDue&gt;
+               &lt;billID&gt;261&lt;/billID&gt;
+               &lt;vehicleID&gt;21402&lt;/vehicleID&gt;
+               &lt;vehicleName&gt;Yamaha Fazer&lt;/vehicleName&gt;
+               &lt;coverageAmount&gt;85000.00&lt;/coverageAmount&gt;
+               &lt;policyUntil&gt;10-Mar-2012&lt;/policyUntil&gt;
+               &lt;placeHolderText&gt;Thank You&lt;/placeHolderText&gt;
+               &lt;insuranceCardSrc&gt;http://vertapp.konylabs.net/KonyInsuranceWeb/images/insurecard.png&lt;/insuranceCardSrc&gt;
+               &lt;canPay&gt;YES&lt;/canPay&gt;
+            &lt;/record&gt;
+         &lt;/collection&gt;
+      &lt;/record&gt;
+      &lt;record&gt;
+         &lt;billingAccountNumber&gt;M156518&lt;/billingAccountNumber&gt;
+         &lt;canPay&gt;No&lt;/canPay&gt;
+         &lt;collection id="billingDetailDataset"&gt;
+            &lt;record&gt;
+               &lt;billingParamName&gt;installmentAmount&lt;/billingParamName&gt;
+               &lt;billingParamValue&gt;2653&lt;/billingParamValue&gt;
+            &lt;/record&gt;
+            &lt;record&gt;
+               &lt;billingParamName&gt;billingAccountInstallmentDueDate&lt;/billingParamName&gt;
+               &lt;billingParamValue&gt;28-Apr-2012&lt;/billingParamValue&gt;
+            &lt;/record&gt;
+            &lt;record&gt;
+               &lt;billingParamName&gt;billingAccountMessage&lt;/billingParamName&gt;
+               &lt;billingParamValue&gt;&amp;lt;p&amp;gt;&amp;lt;font color="green"&amp;gt;Please pay $2653&amp;lt;/font&lt;/billingParamValue&gt;
+            &lt;/record&gt;
+            &lt;record&gt;
+               &lt;billingParamName&gt;billingAccountBillID&lt;/billingParamName&gt;
+               &lt;billingParamValue&gt;802&lt;/billingParamValue&gt;
+            &lt;/record&gt;
+         &lt;/collection&gt;
+         &lt;collection id="relatedAccounts"&gt;
+            &lt;record&gt;
+               &lt;policyID&gt;12345&lt;/policyID&gt;
+               &lt;policyNumber&gt;21212&lt;/policyNumber&gt;
+               &lt;policyType&gt;Auto Policy&lt;/policyType&gt;
+               &lt;status&gt;Active&lt;/status&gt;
+               &lt;policyDue&gt;201.12&lt;/policyDue&gt;
+               &lt;billID&gt;124&lt;/billID&gt;
+               &lt;vehicleID&gt;98766&lt;/vehicleID&gt;
+               &lt;vehicleName&gt;Nissan Altima&lt;/vehicleName&gt;
+               &lt;coverageAmount&gt;56543.00&lt;/coverageAmount&gt;
+               &lt;policyUntil&gt;15-Feb-2012&lt;/policyUntil&gt;
+               &lt;placeHolderText&gt;Thank you&lt;/placeHolderText&gt;
+               &lt;insuranceCardSrc&gt;http://vertapp.konylabs.net/KonyInsuranceWeb/images/insurecard.png&lt;/insuranceCardSrc&gt;
+               &lt;canPay&gt;YES&lt;/canPay&gt;
+            &lt;/record&gt;
+            &lt;record&gt;
+               &lt;policyID&gt;12323&lt;/policyID&gt;
+               &lt;policyNumber&gt;12323&lt;/policyNumber&gt;
+               &lt;policyType&gt;Bike Policy&lt;/policyType&gt;
+               &lt;status&gt;Active&lt;/status&gt;
+               &lt;policyDue&gt;145.00&lt;/policyDue&gt;
+               &lt;billID&gt;666&lt;/billID&gt;
+               &lt;vehicleID&gt;32847&lt;/vehicleID&gt;
+               &lt;vehicleName&gt;Toyota P3&lt;/vehicleName&gt;
+               &lt;coverageAmount&gt;43434.00&lt;/coverageAmount&gt;
+               &lt;policyUntil&gt;27-Feb-2012&lt;/policyUntil&gt;
+               &lt;placeHolderText&gt;Thank you&lt;/placeHolderText&gt;
+               &lt;insuranceCardSrc&gt;http://vertapp.konylabs.net/KonyInsuranceWeb/images/insurecard.png&lt;/insuranceCardSrc&gt;
+               &lt;canPay&gt;YES&lt;/canPay&gt;
+            &lt;/record&gt;
+         &lt;/collection&gt;
+      &lt;/record&gt;
+   &lt;/collection&gt;
+&lt;/Results&gt;
+</outtemplate>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>http://vertapp.konylabs.net/KonyInsuranceWeb/GetPolicyList?userID=kony</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>
