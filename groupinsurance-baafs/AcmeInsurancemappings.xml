@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application name="AcmeInsurance" id="AcmeInsurance">
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmAgent" displayname="Form">
+        <component type="textbox2" id="textbox22098211745121" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmOrder" displayname="Form">
+        <component type="textbox2" id="textbox22098211745121" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmPolicy" displayname="Form"/>
+    <container type="form" id="frmProducts" displayname="Form"/>
+    <container type="form" id="frmUsage" displayname="Form"/>
+    <globalsequences/>
+    <skins/>
+</application>
